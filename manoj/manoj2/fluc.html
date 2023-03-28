@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="fluc.css">
+    <title>Price Fluctuation for Harvested Crops</title>
+    <style>
+      /* CSS styles for the HTML form */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      input {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      #result {
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="crop">Crop Name:</label>
+      <input type="text" id="crop" placeholder="Enter crop name" />
+
+      <label for="date">Harvest Date:</label>
+      <input type="date" id="date" />
+
+      <label for="quantity">Quantity Harvested:</label>
+      <input type="number" id="quantity" placeholder="Enter quantity in kg" />
+
+      <button type="button" onclick="calculatePrice()">Calculate Price Fluctuation</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="./fluc.js"></script>
+  </body>
+</html>

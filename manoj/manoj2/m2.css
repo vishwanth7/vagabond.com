@@ -1,0 +1,16 @@
+.list{
+    margin-left: 800px;
+    color: white;
+}
+.navbar{
+    background-color: cadetblue;
+}
+
+a{
+    color:pink;
+}
+body{
+    background-image: url(./2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

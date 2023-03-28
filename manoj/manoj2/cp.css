@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(https://img.freepik.com/premium-photo/shelf-brown-wood-plank-board-with-blurred-green-rice-field-farm-with-mountain-hut-nature_75876-222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 5px 6px 7px black;
+    background-image: url(https://img.freepik.com/premium-photo/shelf-brown-wood-plank-board-with-blurred-green-rice-field-farm-with-mountain-hut-nature_75876-222.jpg);
+  }
+  label, input {
+    margin: 10px;
+  }
+  input[type="submit"] {
+    margin-top: 10px;
+  }
